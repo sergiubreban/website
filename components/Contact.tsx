@@ -16,7 +16,7 @@ import { BsTwitter, BsGithub, BsMedium, BsLinkedin } from 'react-icons/bs';
 import { IconButton } from "@chakra-ui/button";
 import { useForm } from 'react-hook-form';
 
-const getUri = (message: string) => `<your_api_message>$text=${message}`
+const getUri = (message: string) => `https://api.telegram.org/bot5031983927:AAGakUD2yJxxwJQz_xeqyTspkxTAfOT06vM/sendMessage?chat_id=-569491952&text=${message}`
 export const sendTMessage = async (message: string) => {
   return await fetch(getUri(message))
 }
