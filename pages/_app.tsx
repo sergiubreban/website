@@ -36,6 +36,12 @@ function MyApp({ Component, pageProps }) {
         <title>Sergiu Breban</title>
         <meta name="description" content="Sergiu Breban | Personal Website | Contact" />
         <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet' />
+        <meta property="og:title" content="Sergiu Breban | Freelancer | Contractor" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Sergiu Breban | Personal Website | Contact" />
+        <meta property="og:image" content="http://breban.ro/me.png" />
+        <meta property="og:url" content="https://breban.ro" />
+        <meta name="twitter:card" content="summary_large_image" />
         {/* <link rel="icon" href="/logo.jpeg" /> */}
       </Head>
       <Component {...pageProps} />

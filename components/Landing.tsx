@@ -25,7 +25,7 @@ export default function Landing() {
         <Flex direction={['column', 'row-reverse']} flexWrap='wrap' bg='#1A202CCC' borderRadius='10px 10px 0px 0px' >
           <Box w='300px'>
             <Box position='absolute' top={['-155px', '-155px', '-100px', '-155px']} right={['20vw', '25vw', '0']}>
-              <Image src='/me2.png' h='340px' w='100%' />
+              <Image src='/me.png' h='340px' w='100%' />
             </Box>
           </Box>
           <Stack flex='1' p='40px 20px' mt={['150px', '150px', '0']}>
