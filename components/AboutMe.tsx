@@ -18,7 +18,7 @@ const AboutMe: FC = () => {
       />
     </Text>
     <Text color='dark' textStyle='body' pb='5'>
-      I am helping organizations to implement their ideas, I am specialized in web development with more focus on frontend development. I am working on projects where quality is important and we can invest time making the product better, in addition to delivering features. I've used methodologies like Kanban, Scrum, or nexus. Working mostly in the JavaScript ecosystem, I use/have used many popular JavaScript frameworks and libraries and I am also open to anything.js/ts
+      {("I am helping organizations to implement their ideas, I am specialized in web development with more focus on frontend development. I am working on projects where quality is important and we can invest time making the product better, in addition to delivering features. I've used methodologies like Kanban, Scrum, or nexus. Working mostly in the JavaScript ecosystem, I use/have used many popular JavaScript frameworks and libraries and I am also open to anything.js/ts")}
     </Text>
 
     <Text color='dark' textStyle='body' pb='5'>
